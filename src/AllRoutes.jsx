@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Github from "./components/Github";
 import Home from "./components/Home";
 import User from "./components/User";
 
@@ -24,6 +25,11 @@ const AllRoutes = [
         id: '',
         path: '/user/:userId',
         element: <User />
+    },
+    {
+        id: 'Github',
+        path: '/github',
+        element: <Github />
     },
 
 ];
